@@ -94,7 +94,7 @@ const Chat = () => {
         <input
           value={newMessage}
           onChange={(e) => setNewMessage(e.target.value)}
-          className="flex-1 border border-gray-500 text-white rounded p-2"
+          className="flex-1 border border-gray-500 rounded p-2"
         ></input>
         <button onClick={sendMessage} className="btn btn-secondary">
           Send
